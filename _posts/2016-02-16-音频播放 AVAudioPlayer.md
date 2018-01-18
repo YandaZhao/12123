@@ -1,7 +1,7 @@
 ---
 layout: post
-title: '音频播放 AVAudioPlayer'
-subtitle: ''
+title: 'AVFoundation 音频播放'
+subtitle: '音频播放 AVAudioPlayer'
 date: 2017-04-18
 categories: 技术
 cover: ''
@@ -32,7 +32,7 @@ if (error) {
 
 - 另一种是本地文件的`NSURL`
 
-```
+<pre><code class="language-objectivec">
 NSError *error;
 // 获取音频文件URL
 NSURL *url = [[NSBundle mainBundle] URLForResource:@"music" withExtension:@"mp3"];
@@ -42,7 +42,7 @@ AVAudioPlayer *player = [[AVAudioPlayer alloc] initWithContentsOfURL:url error:&
 if (error) {
     NSLog(@"%@", error);// 在这里我们做了简单的打印,在实际的项目中我们应该做出相应处理
 }
-```
+</code></pre>
 
 ### AVAudioPlayer播放的控制
 
@@ -57,7 +57,7 @@ if (error) {
 
 
 ### AVAudioPlayerDelegate
-```
+<pre><code class="language-objectivec">
 // 将在播放完成后触发,如果顺利播放完成flag为YES, 如果返回NO意味着解码失败.
 - (void)audioPlayerDidFinishPlaying:(AVAudioPlayer *)player successfully:(BOOL)flag;
 
@@ -71,7 +71,7 @@ if (error) {
 - (void)audioPlayerEndInterruption:(AVAudioPlayer *)player withOptions:(NSUInteger)flags;
 - (void)audioPlayerEndInterruption:(AVAudioPlayer *)player withFlags:(NSUInteger)flags;
 - (void)audioPlayerEndInterruption:(AVAudioPlayer *)player ;
-```
+</code></pre>
 
 ### 写在最后
 
