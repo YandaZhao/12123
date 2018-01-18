@@ -19,7 +19,7 @@ AVAudioPlayer创建有两种方式:
 
 - 是一种是基于内存的`NSData`
 
-```
+<pre><code class="language-objectivec">
 NSError *error;
 NSData *audioData = // 获取音频data
 // 创建AVAudioPlayer实例
@@ -28,7 +28,8 @@ AVAudioPlayer *player = [[AVAudioPlayer alloc] initWithData:audioData error:&err
 if (error) {
     NSLog(@"%@", error);// 在这里我们做了简单的打印,在实际的项目中我们应该做出相应处理
 }
-```
+</code></pre>
+
 - 另一种是本地文件的`NSURL`
 
 ```
