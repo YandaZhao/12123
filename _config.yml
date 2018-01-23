@@ -1,7 +1,7 @@
 # Site settings 配置站点
 title: "赵延达的博客"
 description: 'iOS开发者/伪极客/灵魂摄影师，热爱技术&文学。很高兴能在这里与你分享我对技术和生活的思考。'
-keyword: "赵延达, 赵延达的博客, zhaoyanda, YDZhao's Blog, iOS开发, avfoundation, swift, iOS, www.zhaoyanda.com"
+keyword: "赵延达, 赵延达的博客, 赵延达的个人博客, zhaoyanda, YDZhao's Blog, iOS开发, avfoundation, swift, iOS, www.zhaoyanda.com"
 url: 'http://zhaoyanda.com' # your host
 
 # if you don't need baseurl, you should leave this value blank.
@@ -40,10 +40,12 @@ postPatterns: 'circuitBoard'
 
 # SNS settings 配置社交网站url: weibo, zhihu, twitter, instagram, juejin, github, douban, facebook, dribble, uicn, jianshu, medium, linkedin
 sns:
-  weibo: '//weibo.com/lovecolcol'
-  juejin: '//juejin.im/user/57a6f434165abd006159b4cc'
-  instagram: '//www.instagram.com/steveliaocn'
-  github: '//github.com/kaeyleo'
+  weibo: '//weibo.com/5249204963'
+# juejin: '//juejin.im/user/57a6f434165abd006159b4cc'
+#  instagram: '//www.instagram.com/steveliaocn'
+  github: '//github.com/YandaZhao'
+  linkedin: '//linkedin.com/in/延达-赵-22085b136/'
+  douban: '//douban.com/people/163371776/'
 
 # Tags 设置标签
 recommend-tags: true # whether or not display recommend-tags on the sidebar
