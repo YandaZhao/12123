@@ -15,7 +15,7 @@ nav:
 # Author 配置博主信息
 author: '赵延达'
 nickname: 'YDZhao'
-bio: 'iOS开发者，热爱技术&设计，简单乐观爱创造.'
+bio: 'iOS开发者，热爱技术&设计，积极乐观爱思考'
 avatar: '/assets/img/avatar.jpg'
 
 # Search
@@ -33,6 +33,7 @@ social-share: true
 social-share-items: ['wechat', 'weibo', 'douban', 'twitter']
 
 # theme color 主题皮肤
+header-img: http://zhaoyanda-blog.oss-cn-qingdao.aliyuncs.com/HeaderCover.jpg
 theme-color: 'default'  # pink or default
 
 # Post header background patterns (when the post no cover): circuitBoard, overlappingCircles, food, glamorous, ticTacToe, seaOfClouds
