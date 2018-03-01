@@ -5,7 +5,7 @@ subtitle: '音频播放 AVAudioPlayer'
 date: 2017-04-18
 categories: 技术
 cover: ''
-tags: AVFoundation
+tags: 音视频
 ---
 
 

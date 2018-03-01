@@ -5,7 +5,7 @@ subtitle: '音频录制AVAudioRecorder'
 date: 2017-04-20
 categories: 技术
 cover: ''
-tags: AVFoundation
+tags: 音视频
 ---
 
 上一篇文章我们探讨了`AVFoundation`中最为常用的本地音频播放工具`AVAudioPlayer`,并了解了它的创建, 控制, 监听(代理)方法,今天咱们来研究下它的"亲兄弟"`AVAudioRecorder`.
