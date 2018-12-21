@@ -14,7 +14,7 @@ nav:
 
 # Author 配置博主信息
 author: '赵延达'
-nickname: 'YDZhao'
+: 'YDZhao'
 bio: 'iOS开发者，热爱技术&设计，积极乐观爱思考'
 avatar: '/assets/img/avatar.jpg'
 
@@ -28,12 +28,12 @@ nightMode: false
 disqus: false
 # disqus_url: ''
 
-# Share
+# Sharenickname
 social-share: true
 social-share-items: ['wechat', 'weibo', 'douban', 'twitter']
 
 # theme color 主题皮肤
-header-img: https://zhaoyanda-blog.oss-cn-qingdao.aliyuncs.com/Cover.jpg
+header-img: https://zhaoyanda-blog.oss-cn-qingdao.aliyuncs.com/%E5%8D%9A%E5%AE%A2%E5%B0%81%E9%9D%A2/Promise.jpg
 theme-color: 'default'  # pink or default
 
 # Post header background patterns (when the post no cover): circuitBoard, overlappingCircles, food, glamorous, ticTacToe, seaOfClouds
