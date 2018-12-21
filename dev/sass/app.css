@@ -130,10 +130,11 @@ a {
 .home-banner {
   position: relative;
   text-align: center;
+  overflow: hidden;
+  box-shadow: 0 4px 20px rgba(0, 38, 55, 0.16);
   background-image: url("https://zhaoyanda-blog.oss-cn-qingdao.aliyuncs.com/%E5%8D%9A%E5%AE%A2%E5%B0%81%E9%9D%A2/Promise.jpg");
   background-position: center center;
-  overflow: hidden;
-  box-shadow: 0 4px 20px rgba(0, 38, 55, 0.16); }
+  background-size: cover; }
   .home-banner h2, .home-banner h3 {
     position: relative;
     z-index: 1;
@@ -154,22 +155,20 @@ a {
   .home-banner .header-img {
     display: block;
     position: absolute;
+    align: 'middle';
     top: 0;
     left: 0;
     width: 101%;
     z-index: 0; }
 
 .banner-theme-default {
-  background: -webkit-linear-gradient(0deg, #3CD5FF, #007AFF);
-  background: -o-linear-gradient(0deg, #3CD5FF, #007AFF);
-  background: -moz-linear-gradient(0deg, #3CD5FF, #007AFF);
-  background: linear-gradient(100deg, #3CD5FF, #007AFF); }
+  background-color: #007AFF; }
 
 .banner-theme-pink {
-  background: -webkit-linear-gradient(0deg, #FFCE69, #FA709A);
-  background: -o-linear-gradient(0deg, #FFCE69, #FA709A);
-  background: -moz-linear-gradient(0deg, #FFCE69, #FA709A);
-  background: linear-gradient(100deg, #FFCE69, #FA709A); }
+  background-color: -webkit-linear-gradient(0deg, #FFCE69, #FA709A);
+  background-color: -o-linear-gradient(0deg, #FFCE69, #FA709A);
+  background-color: -moz-linear-gradient(0deg, #FFCE69, #FA709A);
+  background-color: linear-gradient(100deg, #FFCE69, #FA709A); }
 
 .themeColor-default {
   background-color: #1494FB; }
